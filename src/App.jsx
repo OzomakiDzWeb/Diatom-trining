@@ -1,16 +1,29 @@
-import React from 'react'
+import { Suspense } from "react"
+import Header from "./Component/Header"
+import { Route, Routes } from "react-router"
+import Home from "./pages/Home"
+import HowItWork from "./pages/HowItWork"
+import PrivacyPolice from "./pages/PrivacyPolice"
+import WieWeexist from './pages/WieWeexist'
+import Page404 from './pages/Page404'
+import Footer from './Component/Footer'
+import Demendemo from "./Component/Demendemo"
 
 const App = () => {
+   
   return (
-    <div>
-      <div className='text-h1 bg-primary'>h1</div>
-      <div className='text-h2 bg-scond'>h2</div>
-      <div className='text-h3 bg-fifth'>h3</div>
-      <div className='text-h4 bg-gray-lghit'>h4</div>
-      <div className='text-h5'>h5</div>
-      <div className='text-p'>p</div>
-      <div className='text-n-bold'>nbold</div>
-      <div className='text-n-small'>nsmal</div>
+    <div className="mt-[51px] py-[16px] sm:mx-[80px] px-[6px] sm:mt-6 relative">
+      
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/howit-work" element={<HowItWork/>}/>
+        <Route path="/privacy-police" element={<PrivacyPolice/>}/>
+        <Route path="/wiewe-exist" element={<WieWeexist/>}/>
+        <Route path="*" element={<Page404/>}/>
+      </Routes>     
+      <Footer/>
+      <Demendemo/>
     </div>
   )
 }

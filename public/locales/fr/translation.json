@@ -1,0 +1,19 @@
+{
+      "Header":{
+          "link1":"NOTRE MISSION",
+          "link2":"COMMENT ÇA FONCTIONNE",
+          "btn-header":"Demander Demo"
+     },
+      "form1":{
+          "title":"Demander une Demo",
+          "name":"Name",
+          "tel":"Telephone",
+          "company":"Entreprise",
+          "qustion":"Comment avez-vous entendu parler de nous? ?",
+          "textarei":"Comment pouvons-nous vous aider??",
+          "chkbox1":"J'accepte de recevoir des communications marketing de Diatome (Vous pouvez vous désabonner à tout moment).",
+          "chkbox2":"J'ai lu et  ",
+          "policy":"j'accepte la Politique de confidentialité."
+
+     }
+}
