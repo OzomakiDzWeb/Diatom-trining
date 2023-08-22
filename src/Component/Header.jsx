@@ -15,7 +15,7 @@ const Header = () => {
 
     const {setShowDomendFoem,changL,setShowNavMobil} = useContext(context)
   return (
-    <nav className="flex justify-between items-center">
+    <nav className="flex justify-between items-center py-[16px] lg:mx-[80px] px-[6px] lg:mt-6">
       <div className=" flex justify-between items-center lg:w-[50%]">
          <Link to='/'>
           <img className="sm:hidden h-[28px]" src="/public/assets/diatome-logo-symbole-05.png" alt='logo'/> 

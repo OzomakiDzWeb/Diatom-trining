@@ -16,5 +16,9 @@
           "chkbox2":"J'ai lu et j'accepte ",
           "policy":" la Politique de confidentialité."
 
+     },
+     "footer":{
+          "drio":"© Droits d'auteur 2023 - Diatome"
      }
+
 }
