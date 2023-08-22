@@ -8,9 +8,14 @@
     font-family: Instrument Sans, sans-serif;
   }
 }
+@layer base {
+  span {
+    font-family: Dancing Script, cursive;
+  }
+}
 @layer utilities {
   .nav-link {
-    @apply relative;
+    @apply relative ;
   }
   .nav-link::after {
     @apply content-[''] absolute bg-primary h-[2px] w-[0%] left-0 transition-all duration-500  ease-in-out -bottom-[5px] rounded-xl;
@@ -26,4 +31,8 @@
     background-position: left;
     padding: 10px;
   }
+}
+@layer components{
+.inpt{
+@apply w-full rounded-full outline-none px-4 py-3}
 }

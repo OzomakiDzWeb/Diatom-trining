@@ -1,18 +1,24 @@
-import { Suspense } from "react"
+
 import Header from "./Component/Header"
 import { Route, Routes } from "react-router"
 import Home from "./pages/Home"
+import {AppContext} from './context/AppContext'
 import HowItWork from "./pages/HowItWork"
 import PrivacyPolice from "./pages/PrivacyPolice"
 import WieWeexist from './pages/WieWeexist'
 import Page404 from './pages/Page404'
 import Footer from './Component/Footer'
 import Demendemo from "./Component/Demendemo"
+import NavMobil from "./Component/NavMobil"
 
 const App = () => {
    
   return (
-    <div className="mt-[51px] py-[16px] sm:mx-[80px] px-[6px] sm:mt-6 relative">
+    <AppContext>
+
+    <div>
+
+    <div className="mt-[51px] py-[16px] lg:mx-[80px] px-[6px] lg:mt-6 relative">
       
       <Header/>
       <Routes>
@@ -23,8 +29,12 @@ const App = () => {
         <Route path="*" element={<Page404/>}/>
       </Routes>     
       <Footer/>
-      <Demendemo/>
+    
     </div>
+      <Demendemo/>
+      <NavMobil/>
+    </div>
+    </AppContext>
   )
 }
 
