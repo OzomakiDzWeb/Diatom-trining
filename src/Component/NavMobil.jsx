@@ -17,7 +17,7 @@ const NavMobil = () => {
          src='/public/assets/Plus.png' alt='close'/>
      </div>
      <div 
-           className="flex flex-col items-center justify-around text-n-bold h-[70%] relative z-40 ">
+           className="flex flex-col items-center justify-around text-typg h-[70%] relative z-40 ">
            <Link to='/'  
            onClick={()=>setShowNavMobil(false)} 
            className=" nav-link">
@@ -33,14 +33,14 @@ const NavMobil = () => {
            className=" nav-link mx-3 ">
               {t('Header.link2')}
          </Link>
-         <select className="text-n-bold form-select appearance-none pl-4 border-none focus:outline-none cursor-pointer bg-no-repeat" onChange={changL} >
+         <select className="text-typg  bg-scond form-select appearance-none pl-4 border-none focus:outline-none cursor-pointer bg-no-repeat" onChange={changL} >
                   <option className="lang" value='en'>en</option>
                   <option className="lang" value='fr'>fr</option>
          </select>
          <button onClick={()=>{
                    setShowNavMobil(false)
                    setShowDomendFoem(true)}} 
-                   className=" h-[56px] py-[16px] px-[26px] rounded-[50px] bg-black text-n-bold text-white">{t('Header.btn-header')}</button>
+                   className=" h-[56px] py-[16px] px-[26px] rounded-[50px] bg-black text-typg text-white">{t('Header.btn-header')}</button>
      </div>
           <img className='-z-0 absolute -top-6 -right-10 w-[312px] h-[217px]' src='/public/assets/asset top.png' alt='img'/>
           <img className='absolute left-[25%]' src='/public/assets/asset bottom.png' alt='img'/>   

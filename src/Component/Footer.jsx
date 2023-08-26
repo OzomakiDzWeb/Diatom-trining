@@ -9,37 +9,37 @@ const Footer = () => {
   return (
     <div className='bg-primary flex flex-col items-center py-5'>
      <img className='w-[153px] h-[22px]' src='/public/assets/diatome-logo-wordmark-01.png' alt='logo'/>
-     <ul className='flex flex-col md:flex-row  text-center justify-between mt-10 text-h6 w-[80%]'>
-        <li> 
+     <ul className='flex flex-col sm:flex-row  text-center justify-between mt-10 text-nav-small w-[80%]'>
+        <li className='mt-5 sm:mt-0'> 
           <Link to='/'  
              className=" nav-link">
               {t('Header.home')}
             </Link>
          </li>
-        <li> 
+        <li className='mt-5 sm:mt-0'> 
            <Link to='/wiewe-exist' 
               className=" nav-link">
               {t('Header.link1')}
             </Link>
          </li>
-        <li>
+        <li className='mt-5 sm:mt-0'>
           <Link to='/howit-work' 
                  onClick={() => setShowNavMobil(false)}
                  className=" nav-link">
               {t('Header.link2')}
          </Link>
          </li>
-        <li>
+        <li className='mt-5 sm:mt-0'>
           <Link to='' className=" nav-link">
             FAQs
           </Link>
         </li>
-        <li>
+        <li className='mt-5 sm:mt-0'>
           <Link to='/privacy-police' className=" nav-link">
             {t('form1.policy')}
           </Link>
           </li>
-        <li>
+        <li className='mt-5 sm:mt-0'>
           <Link 
             onClick={() => setShowDomendFoem(true)} className=" nav-link">
               Contact

@@ -19,6 +19,56 @@
      },
      "footer":{
           "drio":"© Copyright 2023 - Diatome"
+     },
+     "home":{
+          "title1":"circular business models a ",
+          "span":"breeze",
+          "title2":" with P2P resale!",
+          "p":"Make a splash in the circular economy with our easy-to-use, scalable tech. And the bonus?It's headless - that's one less knot to untie!"
+     },
+     "section2":{
+          "title":"What We Offer",
+          "p":"From technical setup to operational support, we ensure a successful resale program launch and ongoing success.",
+          "div1":{
+               "title":"End-to-End P2P Resale Solution",
+               "p":"Our solution facilitates the entire resale process and seamlessly integrates into your existing product offering with just a few clicks - your customers can shopnew and pre-loved items in the same basket!"
+          },
+          "div2":{
+               "title":"Operational Support",
+               "p":"We provide tailored support levels, handling everything from the approval of listings to dispute resolution."
+          },
+          "div3":{
+               "title":"Implementation",
+               "p":"We handle any technical work necessary to get your program up and running."
+          },
+          "div4":{
+               "title":"Client Success Program",
+               "p":"Client Success Program"
+          }
+          
+     },
+     "homeSlider":{
+          "slid1":{
+               "title":"Make a Positive Impact Now",
+               "p":"According to the Ellen MacArthur Foundation, a circular economy could save Europe €600 billion and reduce carbon emissions by 48% by 2030. "
+          },
+           "slid2":{
+               "title":"It's Growing",
+               "p":"The second-hand market is forecasted to grow 5.4x in the next five years."
+          },
+           "slid3":{
+               "title":"Take Control of Your Brand and Quality",
+               "p":"Your products are already being sold on second-hand marketplaces. Integrating P2P resale into your offer gives you complete control over your branding and provides your clients with a better second-hand experience."
+          },
+           "slid4":{
+               "title":"Grow Your Audience",
+               "p":"P2P resale gives you an opportunity to engage a broader, younger and more eco-conscientious audience. 62% of Gen Z and Millennials will likely search for a second-hand item before considering a new purchase."
+          },
+           "slid5":{
+               "title":"Boost Retention and Customer Re-Engagement Rates. ",
+               "p":"Boost Retention and Customer Re-Engagement Rates. Embracing circularity can improve customer loyalty. For instance, offering vouchers for traded-in items could encourage repeat purchases."
+          },
+          "button":"Get started"
      }
      
 }

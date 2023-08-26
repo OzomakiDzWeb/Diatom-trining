@@ -19,6 +19,62 @@
      },
      "footer":{
           "drio":"© Droits d'auteur 2023 - Diatome"
+     },
+     "home":{
+          "title1":"Circularisez vos produits avec une solutionsla revente, aussi  ",
+          "span":"simple",
+          "title2":" qu'une brise d'été.",
+          "p":"Faites escale dans l'économie circulaire grâce à notre technologie de revente C2C, aussi ingénieuse que performante. Et le bon vent ? Elle est \"headless\" - libérée de toute contrainte backend."
+     },
+     "section2":{
+          "title":"Ce que nous proposons",
+          "p":"De la configuration technique au soutien opérationnel, nous nous assurons du lancement réussi et de la continuité fructueuse du programme de revente.",
+          "div1":{
+               "title":"Les articles et seconde-main dans le même panier",
+               "p":"Diatome offre à vos clients une expérience d'achat fluide, où produits neufs et d'occasion peuvent être acquis ensemble, dans le même panier."
+          },
+          "div2":{
+               "title":"Mise en œuvre",
+               "p":"Nous prenons en charge tous les aspects techniques nécessaires pour lancer votre offre de produits de seconde main."
+          },
+          "div3":{
+               "title":"Support opérationnel",
+               "p":"Nous offrons un support sur mesure, prenant en charge tous les aspects, de l'approbation des annonces à la résolution des conflits."
+          },
+          "div4":{
+               "title":"Programme de réussite client",
+               "p":"Nous mettons à votre disposition des conseils stratégiques, guidant votre entreprise à travers le processus de lancement et au-delà, afin de vous aider à optimiser votre programme de circularité."
+          }
+     },
+       "homeSlider":{
+          "slid1":{
+               "title":"Créez un impact positif dès aujourd'hui",
+               "p":"Selon la Fondation Ellen MacArthur, l'économie circulaire pourrait aider d'économiser jusqu'à 600 milliards d'euros et de réduire les émissions de carbone de 48 % d'ici 2030. "
+          },
+           "slid2":{
+               "title":"Une croissance en plein essor",
+               "p":"Le marché de la seconde main est sur le point de déferler avec une croissance projetée de 5,4x au cours des cinq prochaines années."
+          },
+           "slid3":{
+               "title":"Prenez les rênes de votre marque et de la qualité",
+               "p":"Vos produits sont déjà échangés sur les plateformes de seconde main. En intégrant la revente C2C à votre offre, vous reprenez le contrôle de votre image de marque et créez une expérience de revente et d'achat d'articles d'occasion inégalée."
+          },
+           "slid4":{
+               "title":"Élargissez votre clientèle ",
+               "p":"La revente vous offre une opportunité pour embarquer de nouveaux clients à bord, plus jeunes et plus soucieux de l'écologie. 62 % des Gen Z et des Millennials se tourneront vers les articles d'occasion avant même de parcourir les catalogues de produits neufs."
+          },
+           "slid5":{
+               "title":"Améliorez la fidélité et les taux de réengagement des clients ",
+               "p":"Adopter la circularité peut renforcer les liens de loyauté avec vos clients. Par exemple, proposer des bons pour des articles repris pourrait encourager les achats répétés."
+          },
+            "button":"Commencer"
+          
      }
 
 }
+
+
+
+
+
+

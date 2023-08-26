@@ -20,7 +20,7 @@ const Nav = () => {
 
 
   return (
-    <nav className=" bg-slate-950 text-white flex justify-between mx-5">
+    <nav className=" text-typg bg-slate-950 text-white flex justify-between mx-5">
      <div>
      <Link >i18</Link>
      <Link className="ml-3" to='/'>{t("title")}</Link>
