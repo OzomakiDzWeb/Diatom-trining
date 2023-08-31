@@ -69,6 +69,26 @@
           },
             "button":"Commencer"
           
+     },
+     "subscrub":{
+          "title":"Abonnez-vous à notre newsletter",
+          "p":"Recevez les dernières tendances de l'économie circulaire et bien plus encore.",
+          "placholder":"Entrez votre adresse e-mail",
+          "button":"S'abonner"
+     },
+     "section2-p-2":{
+          "div1":{
+               "title":"Prepare. ",
+               "p":"We've got the technical aspects and integration process completely under control. Plus, we'll guide you on how to shape your resale marketing strategy, integrate resale propositions into your current product offering, and optimize your channels for launch."
+          },
+          "div2":{
+               "title":"Launch.",
+               "p":"We provide a clear action plan and guidance to help you launch your resale program and get the most out of it."
+          },
+          "div3":{
+               "title":"Grow.",
+               "p":"Our support to clients continues. We also offer insights, performance reviews, and guidance on how to enhance and expand your program."
+          }
      }
 
 }

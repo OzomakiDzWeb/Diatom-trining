@@ -7,10 +7,11 @@ export default {
   theme: {
     colors:{
       'primary':'#9B92F8',
-      'scond':'#EFFE53',
+      'scond':'#F0FF1E',
       'third':'#9AD3E0',
       'fourth':'#4EADC3',
       'fifth':'#FA9F76',
+      'sporting':'#4AAEC3',
       'white':'#F6F5F4',
       'black':'#071C25',
       'gray-darck':'#505658',
@@ -62,7 +63,7 @@ export default {
         lineHeight:'29px',
         fontWeight:'400'
       }],
-       'typg':['20px',{
+       'typg':['26px',{
         lineHeight:'30px',
         fontWeight:'700'
       }],
@@ -74,10 +75,18 @@ export default {
         lineHeight:'20px',
         fontWeight:'400'
       }],
+      'h1-pages-mobile':['36px',{
+        lineHeight:'41.04px',
+        fontWeight:'400'
+      }],
      
     },
    
     extend: {
+      backgroundImage: {
+        'hero-top': "url('/public/assets/img.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
     },
   plugins: [],
 }

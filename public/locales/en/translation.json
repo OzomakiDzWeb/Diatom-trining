@@ -69,6 +69,26 @@
                "p":"Boost Retention and Customer Re-Engagement Rates. Embracing circularity can improve customer loyalty. For instance, offering vouchers for traded-in items could encourage repeat purchases."
           },
           "button":"Get started"
+     },
+     "subscrub":{
+          "title":"Subscribe to our newsletter",
+          "p":"Receive the latest on circular economy trends and more.",
+          "placholder":"Enter your email",
+          "button":"Suscribe"
+     },
+     "section2-p-2":{
+          "div1":{
+               "title":"Prepare. ",
+               "p":"We've got the technical aspects and integration process completely under control. Plus, we'll guide you on how to shape your resale marketing strategy, integrate resale propositions into your current product offering, and optimize your channels for launch."
+          },
+          "div2":{
+               "title":"Launch.",
+               "p":"We provide a clear action plan and guidance to help you launch your resale program and get the most out of it."
+          },
+          "div3":{
+               "title":"Grow.",
+               "p":"Our support to clients continues. We also offer insights, performance reviews, and guidance on how to enhance and expand your program."
+          }
      }
      
 }

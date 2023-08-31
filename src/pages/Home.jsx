@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next"
 import { context } from "../context/AppContext"
 import {motion} from 'framer-motion'
 import CurselComponent from "../Component/CurselComponent"
+import AboneComponent from "../Component/AboneComponent"
 
 
 const Home = () => {
@@ -74,12 +75,12 @@ useEffect(()=>{
             {sliderArr.map((itm,idx)=>(
               <motion.div key={idx}>
               <CurselComponent {...itm}/>
-                
-              </motion.div>
+                </motion.div>
             ))}
           </motion.div>
         </motion.div>
       </section>
+      <AboneComponent/>
   </div>
   )
 }
