@@ -85,7 +85,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-top': "url('/public/assets/img.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'heder-whi-exist': "url('/public/assets/Death_to_Stock_Photography_JejuIsland2_1.png')",
       }
     },
   plugins: [],

@@ -33,6 +33,8 @@
   }
 }
 @layer components{
+.bg-transparent { background-color: transparent; }}
+@layer components{
 .inpt{
 @apply w-full rounded-full outline-none px-4 py-3}
 }
@@ -43,4 +45,5 @@
 @apply content-[''] absolute bg-[#fff]  drop-shadow h-full w-1 left-0 rotate-[-30deg] }
 .linkSlider:hover::after{
 @apply animate-[hoverLinkSlider_1s_ease-in-out]}}
+
 

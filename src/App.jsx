@@ -18,7 +18,7 @@ const App = () => {
 
     <div>
 
-    <div className="mt-[51px]  relative">
+    <div className="mt-[40px] sm:mt-0   relative">
       
       <Header/>
       <Routes>
