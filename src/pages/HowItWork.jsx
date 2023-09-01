@@ -88,7 +88,7 @@ const {t}=useTranslation()
       </section>
       {/* slider */}
        {/* section2 */}
-       <section className='bg-white text-gray-darck flex flex-col sm:grid grid-cols-3 sm:p-20 gap-10'>
+       <section className='bg-white text-gray-darck my-12  flex flex-col sm:grid grid-cols-3 sm:p-20 gap-10'>
         <div>
           <h1 className='text-mobil-h2 sm:text-typg text-sporting'>{t('section2-p-2.div1.title')}</h1>
           <p className='text-mobil-p sm:text-p-main mt-4'>{t('section2-p-2.div1.p')}</p>
@@ -124,6 +124,16 @@ const {t}=useTranslation()
            </main>
            <img className='absolute -bottom-10 right-0 rotate-[30deg] sm:block hidden' src='/public/assets/9.svg' alt='svg'/>
            <img className='absolute top-[50%] w-[30%] sm:block hidden' src='/public/assets/10.svg' alt='svg'/>
+        </section>
+        {/* section  */}
+        <section className='flex flex-col justify-center md:px-[200px] sm:py-[30px]  items-center bg-gray-extrai'>
+          <div className='text-mobil-h2 sm:text-subtitl-h4  text-center'>Abonnez-vous à notre newsletter</div>
+          <p className='text-mobil-p text-gray-darck block text-center sm:hidden'>Recevez les dernières tendances de l'économie circulaire et bien plus encore.</p>
+          <div className='flex flex-col md:flex-row justify-center  mt-5 w-full'>
+        <input className=' px-2 py-3 rounded-[30px] focus:outline-none ' type='email' placeholder={t('subscrub.placholder')}/>
+        <button className='flex  items-center justify-center bg-black rounded-[30px] px-10 py-3 mt-2 sm:mt-0 md:-ml-10 text-nav-small text-white'>{t('subscrub.button')}<img className='ml-2' src='/public/assets/Vector 1.svg'/>
+        </button>
+      </div>
         </section>
     </div>
   )

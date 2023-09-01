@@ -40,21 +40,21 @@ useEffect(()=>{
          </div>
          <div className="flex flex-col sm:flex-row gap-5 p-5 z-20 " >
           <div className="flex flex-col items-end gap-5 ">
-            <div className="bg-third p-10 rounded-[50px] grow ">
+            <div className="bg-third p-10 rounded-[50px] grow hover:shadow-2xl transition cursor-pointer">
               <h1 className="text-mobil-h3 sm:text-subtitl-h4">{t('section2.div1.title')}</h1>
               <p className=" text-gray-darck">{t('section2.div1.p')}</p>
             </div>
-            <div className="bg-[#4AAEC3] p-10 rounded-[50px] h-fit ">
+            <div className="bg-[#4AAEC3] p-10 rounded-[50px] h-fit hover:shadow-2xl transition cursor-pointer">
               <h1 className="text-mobil-h3 sm:text-subtitl-h4">{t('section2.div3.title')}</h1>
               <p className=" text-gray-darck">{t('section2.div3.p')}</p>
            </div>
           </div>
           <div className="flex flex-col gap-5">
-            <div className="bg-fifth p-10 rounded-[50px]  h-fit">
+            <div className="bg-fifth p-10 rounded-[50px]  h-fit hover:shadow-2xl transition cursor-pointer">
               <h1 className="text-mobil-h3 sm:text-subtitl-h4">{t('section2.div2.title')}</h1>
               <p className=" text-gray-darck">{t('section2.div2.p')}</p>
             </div>
-            <div className="bg-primary p-10 rounded-[50px]">
+            <div className="bg-primary p-10 rounded-[50px] hover:shadow-2xl transition cursor-pointer">
               <h1 className="text-mobil-h3 sm:text-subtitl-h4">{t('section2.div4.title')}</h1>
               <p className=" text-gray-darck">{t('section2.div4.p')}</p>
             </div>
