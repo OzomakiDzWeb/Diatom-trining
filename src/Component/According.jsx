@@ -22,7 +22,7 @@ const Aco = ({title,number,p}) => {
           aria-controls={`accordion-text-01`}
         > 
         <div className={`${accordionOpen?'opacity-0':'opacity-100'} text-mobil-h3 text-primary`}>{number}</div>
-           <div className='text-left ml-5 mr-auto'>{title}</div>
+           <div className='text-left ml-5 mr-auto text-gray-darck'>{title}</div>
            <img className={`${accordionOpen?'opacity-0':'opacity-100'} transition-all duration-300 ease-in-out`} src='/public/assets/Plus.svg' alt='svgPlus'/>          
         </button>        
       </h2>
@@ -35,7 +35,7 @@ const Aco = ({title,number,p}) => {
         <div className="overflow-hidden flex items-center gap-5">
           <div className='text-mobil-h3 text-primary text'>{number}</div>
           <p className="pb-3 text-nav-small text-gray-darck">
-            If you go over your organisations or user limit, a member of the team will reach out about bespoke pricing. In the meantime, our collaborative features won't appear in accounts or users that are over the 100-account or 1,000-user limit.
+            {p}
           </p>
            <img onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }} className={`${accordionOpen?'opacity-100':'opacity-0 '} rotate-45 cursor-pointer transition-all duration-300 ease-in-out`} src='/public/assets/Plus.svg' alt='svgPlus'/> 
         </div>

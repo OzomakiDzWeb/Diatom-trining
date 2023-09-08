@@ -10,12 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "framer-motion": "^10.16.1",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.2.1",
     "jquery": "^3.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fancy-circular-carousel": "^1.0.8",
     "react-i18next": "^13.1.2",
     "react-router-dom": "^6.15.0"
   },

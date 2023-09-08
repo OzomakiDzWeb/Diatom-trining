@@ -46,6 +46,10 @@
                "p":"Nous mettons à votre disposition des conseils stratégiques, guidant votre entreprise à travers le processus de lancement et au-delà, afin de vous aider à optimiser votre programme de circularité."
           }
      },
+     "sectionTitle":{
+           "title":"Revente C2C : une opportunité durable pour votre croissance?",
+           "p":"La revente est un excellent point d'entrée pour les marques qui souhaitent participer à ce parcours circulaire. C'est facile à lancer et offre des opportunités d'apprentissage immédiates !"
+     },
        "homeSlider":{
           "slid1":{
                "title":"Créez un impact positif dès aujourd'hui",
@@ -76,7 +80,33 @@
           "placholder":"Entrez votre adresse e-mail",
           "button":"S'abonner"
      },
-     "section2-p-2":{
+     "howItWork":{
+          "ticket":"End-to-End Resale Solution",
+          "hederSection":{
+               "title":"Key features",
+               "p":"Our solution lets you launch your resale program in just a few weeks. With minimal technical effort, it seamlessly integrates into your existing stack."
+          },
+          "div1":{
+               "title":"API-based software.",
+               "p":"Our tech seamlessly blends into your existing tech stack, helping to minimise costs and speed up time-to-market."
+          },
+          "div2":{
+               "title":"Entire resale solution. ",
+               "p":"We facilitate every step of the resale process, from re-listing the item and ensuring quality control to guiding the resale purchase journey and overseeing the shipping of the item to its new home."
+          },
+           "div3":{
+               "title":"A smooth shopping experience.",
+               "p":"Your customers can combine second-hand and new products in one single shopping cart."
+          },
+           "div4":{
+               "title":"Full-on support. ",
+               "p":"We can manage everything, from approving listings to resolving disputes."
+          },
+          "div5":{
+               "title":"Headless technology! ",
+               "p":"This means you can introduce the resale channel on your website without any backend work."
+          },
+          "section2-p-2":{
           "div1":{
                "title":"Prepare. ",
                "p":"We've got the technical aspects and integration process completely under control. Plus, we'll guide you on how to shape your resale marketing strategy, integrate resale propositions into your current product offering, and optimize your channels for launch."
@@ -89,6 +119,26 @@
                "title":"Grow.",
                "p":"Our support to clients continues. We also offer insights, performance reviews, and guidance on how to enhance and expand your program."
           }
+     }
+     
+     },
+      "whyExist":{
+          "ticket":"Notre raison d'être",
+          "p1":"Nous aimons la technologie ici chez Diatome, et nous avons aussi un grand rêve.",
+          "p2":"L'industrie de la mode a une empreinte environnementale significative et nous voulons aider à changer cela. Adopter un modèle d'affaires circulaire peut aider les marques à relever ce défi, car il permet de maximiser la valeur de chaque pièce de vêtement pendant et après sa durée de vie. Et cela ne s'applique pas seulement à la mode, cela concerne toute marque vendant des biens durables ! ",
+          "p3":"Cependant, orienter votre modèle d'affaires vers la durabilité peut sembler une tâche gigantesque. Cela peut être coûteux et prendre du temps. C'est pourquoi nous avons créé une technologie qui peut aider plus de marques à faire de l'économie circulaire une réalité !",
+          "p4":{
+               "p1":"Notre technologie C2C est conçue pour être une étape  ",
+               "span":"abordable et pratique",
+               "p2":"pour toute marque axée sur le commerce électronique qui souhaite faire le premier pas vers l'économie circulaire."
+          },
+          "p5":"Notre solution ? Aider les marques, grandes et petites, à mettre en place leurs propres programmes de revente C2C dirigés par la marque qui s'intègrent facilement à leur offre de produits existante. Et il ne s'agit pas seulement d'être plus vert. Avec notre technologie, vous pouvez maintenir le contrôle sur la qualité de vos articles revendus, préservant ainsi la réputation solide de votre marque et la satisfaction de vos clients.",
+          "p6":"Nous ne sommes pas là pour bouleverser le monde du jour au lendemain, mais nous nous engageons à faire notre part pour rendre la mode plus durable, pas à pas. Ce n'est pas une course, mais un voyage et nous aimerions que vous vous joigniez à nous"
+     },
+      "404":{
+          "title":"Page non trouvée",
+          "p":"La page que vous cherchez n'existe pas ou a été déplacée.",
+          "button":"Retour à l'accueil"
      }
 
 }

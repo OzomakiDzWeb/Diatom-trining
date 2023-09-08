@@ -24,6 +24,7 @@
     @apply w-[100%] transition-all duration-500  ease-in-out ;
   }
 }
+
 @layer components {
   .form-select {
     background-image: url("../public/assets/Vector 1.png");

@@ -47,6 +47,10 @@
           }
           
      },
+     "sectionTitle":{
+           "title":"Why should you launch P2P resale now?",
+           "p":"Resale is an excellent entry point for brands to join this circular journey. It's easy to launch and offers immediate learning opportunities!"
+     },
      "homeSlider":{
           "slid1":{
                "title":"Make a Positive Impact Now",
@@ -76,7 +80,34 @@
           "placholder":"Enter your email",
           "button":"Suscribe"
      },
-     "section2-p-2":{
+    
+     "howItWork":{
+          "ticket":"End-to-End Resale Solution",
+          "hederSection":{
+               "title":"Key features",
+               "p":"Our solution lets you launch your resale program in just a few weeks. With minimal technical effort, it seamlessly integrates into your existing stack."
+          },
+          "div1":{
+               "title":"API-based software.",
+               "p":"Our tech seamlessly blends into your existing tech stack, helping to minimise costs and speed up time-to-market."
+          },
+          "div2":{
+               "title":"Entire resale solution. ",
+               "p":"We facilitate every step of the resale process, from re-listing the item and ensuring quality control to guiding the resale purchase journey and overseeing the shipping of the item to its new home."
+          },
+           "div3":{
+               "title":"A smooth shopping experience.",
+               "p":"Your customers can combine second-hand and new products in one single shopping cart."
+          },
+           "div4":{
+               "title":"Full-on support. ",
+               "p":"We can manage everything, from approving listings to resolving disputes."
+          },
+          "div5":{
+               "title":"Headless technology! ",
+               "p":"This means you can introduce the resale channel on your website without any backend work."
+          },
+          "section2-p-2":{
           "div1":{
                "title":"Prepare. ",
                "p":"We've got the technical aspects and integration process completely under control. Plus, we'll guide you on how to shape your resale marketing strategy, integrate resale propositions into your current product offering, and optimize your channels for launch."
@@ -89,6 +120,26 @@
                "title":"Grow.",
                "p":"Our support to clients continues. We also offer insights, performance reviews, and guidance on how to enhance and expand your program."
           }
+     }
+     
+     },
+     "whyExist":{
+          "ticket":"Democratizing Circular Economy",
+          "p1":"We love tech here at Diatome, and we also have got a big dream.",
+          "p2":"The fashion industry has a significant environmental footprint and we want to help change that. Adopting a circular business model can help brands tackle this challenge, as it allows for maximising the value of every piece of the clothes during and after its lifetime. And not only in fashion, this applies to any brand selling durable goods! ",
+          "p3":"However, turning your business model towards sustainability can seem like a mammoth task. It can be pricey and time-consuming. That’s why we created a technology that can help more brands, big and small, make the circular economy a reality! ",
+          "p4":{
+               "p1":"Our technology allows brands to set up their own brand-led P2P resale programs that ",
+               "span":"easily integrate",
+               "p2":"with their existing product offering and is designed to be a practicable stepping stone towards the circular economy."
+          },
+          "p5":"And it's not just about being greener. With our technology, you can maintain control over the quality of your resold items, keeping your brand's reputation solid and your customers satisfied.",
+          "p6":"We're not here to turn the world upside down overnight, but we're committed to doing our part in making fashion more sustainable, one step at a time. It’s not a race, but a journey, and we'd love for you to join us."
+     },
+     "404":{
+          "title":"Page Not Found",
+          "p":"The page you are looking for doesn't exist or has been moved.",
+          "button":"Go To Home"
      }
      
 }

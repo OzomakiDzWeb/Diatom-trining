@@ -9,39 +9,39 @@ const Footer = () => {
   return (
     <div className='bg-primary flex flex-col items-center py-5'>
      <img className='w-[153px] h-[22px]' src='/public/assets/diatome-logo-wordmark-01.png' alt='logo'/>
-     <ul className='flex flex-col sm:flex-row  text-center justify-between mt-10 text-nav-small w-[80%]'>
+     <ul className='flex flex-col  w-full sm:flex-row  text-center justify-around mt-10 text-nav-small '>
         <li className='mt-5 sm:mt-0'> 
           <Link to='/'  
-             className=" nav-link">
+             className=" nav-link sm:text-nav-small w-fit px-1">
               {t('Header.home')}
             </Link>
          </li>
         <li className='mt-5 sm:mt-0'> 
            <Link to='/wiewe-exist' 
-              className=" nav-link">
+              className=" nav-link sm:text-nav-small w-fit px-1">
               {t('Header.link1')}
             </Link>
          </li>
         <li className='mt-5 sm:mt-0'>
           <Link to='/howit-work' 
                  onClick={() => setShowNavMobil(false)}
-                 className=" nav-link">
+                 className=" nav-link sm:text-nav-small w-fit px-1">
               {t('Header.link2')}
          </Link>
          </li>
         <li className='mt-5 sm:mt-0'>
-          <Link to='' className=" nav-link">
+          <Link to='' className=" nav-link sm:text-nav-small w-fit px-1">
             FAQs
           </Link>
         </li>
         <li className='mt-5 sm:mt-0'>
-          <Link to='/privacy-police' className=" nav-link">
+          <Link to='/privacy-police' className=" nav-link sm:text-nav-small w-fit px-1">
             {t('form1.policy')}
           </Link>
           </li>
         <li className='mt-5 sm:mt-0'>
           <Link 
-            onClick={() => setShowDomendFoem(true)} className=" nav-link">
+            onClick={() => setShowDomendFoem(true)} className=" nav-link sm:text-nav-small w-fit px-1">
               Contact
           </Link>
           </li>

@@ -14,6 +14,7 @@ export default {
       'sporting':'#4AAEC3',
       'white':'#F6F5F4',
       'black':'#071C25',
+      'darkBleu':'#282938',
       'gray-darck':'#505658',
       'gray-lghit':'#9CA2A4',
       'gray-extrai':'#DDE3E6',
@@ -86,6 +87,7 @@ export default {
       backgroundImage: {
         'hero-top': "url('/public/assets/img.png')",
         'heder-whi-exist': "url('/public/assets/Death_to_Stock_Photography_JejuIsland2_1.png')",
+        'hero-policy':"url('/public/assets/DeathtoStock_CookingTogether-02.png')"
       }
     },
   plugins: [],

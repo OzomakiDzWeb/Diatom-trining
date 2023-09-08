@@ -18,7 +18,7 @@ const App = () => {
 
     <div>
 
-    <div className="mt-[40px] sm:mt-0   relative">
+    <div className="mt-[40px] sm:mt-0   relative ">
       
       <Header/>
       <Routes>
@@ -27,6 +27,7 @@ const App = () => {
         <Route path="/privacy-police" element={<PrivacyPolice/>}/>
         <Route path="/wiewe-exist" element={<WieWeexist/>}/>
         <Route path="*" element={<Page404/>}/>
+        
       </Routes>     
       <Footer/>
     

@@ -5,6 +5,8 @@ import App from './App.jsx'
 import './index.css'
 import './i18n.jsx'
 
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
   <React.StrictMode>
