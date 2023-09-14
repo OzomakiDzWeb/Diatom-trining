@@ -8,8 +8,7 @@ const CurselComponent = ({title,p,img}) => {
   
   return (
      <div className="shrink-0 flex items-center flex-col-reverse sm:flex-row gap-12 relative w-[100vw] px-5 sm:px-0">
-      
-        <img className="rounded-[50px] h-[431px] md:h-[440px] lg:h-[629px] -z-10 sm:ml-12  w-[438px] md:w-[342px] lg:w-[609px]" src={Object.values(img)[0]} alt="imgSlid"/>
+       <img className="rounded-[50px] h-[431px] md:h-[440px] lg:h-[629px] -z-10 sm:ml-12  w-[438px] md:w-[342px] lg:w-[609px]" src={Object.values(img)[0]} alt="imgSlid"/>
          <div className="z-20  " >
             <h1 className="text-mobil-h3 lg:text-tit-h3 my-3">{t(title)}</h1>
             <p className="text-p text-gray-darck mb-3">{t(p)}</p>

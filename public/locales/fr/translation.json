@@ -139,6 +139,10 @@
           "title":"Page non trouvée",
           "p":"La page que vous cherchez n'existe pas ou a été déplacée.",
           "button":"Retour à l'accueil"
+     },
+     "sliderCercle":{
+          "title1":"Témoignages de nos clients",
+          "title2":"“An amazing service”"
      }
 
 }

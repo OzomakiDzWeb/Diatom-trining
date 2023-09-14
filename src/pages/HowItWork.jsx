@@ -2,10 +2,36 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import Aco from '../Component/According'
 import {faqs} from '../constans/objAccording'
+import SectionPhone from '../Component/SectionPhone'
+import { objPhon } from '../constans/objSectionPhone'
+import CurselHowitWork from '../Component/CurselHowitWork'
+import Carousel from "framer-motion-carousel";
+import {  useRef, useState } from 'react'
+import ButonSlider from '../Component/ButonSlider'
+
 
 const HowItWork = () => {
+const [appState,setchangeState]=useState({
+  activObj:null,
+  objects:[{id:1},{id:2},{id:3},{id:4}]
+})
+function toggelActiv(indx){
+  setchangeState({...appState,activObj:appState.objects[indx]})
+}
+function ActivStyle(indx){
+  if(appState.objects[indx]===appState.activObj){
+    return true
+
+  }else{
+    return false
+  }
+}
+
+ const cur=useRef()
  
 const {t}=useTranslation()
+
+
 
   return (
     <div className='my-6'>
@@ -62,38 +88,79 @@ const {t}=useTranslation()
           <p className='text-mobil-p sm:text-p-main mt-4'>{t('howItWork.section2-p-2.div3.p')}</p>
         </div>
        </section>
+       {/* section 3 */}
+       <section className='text-center'>
+          <h1 className='text-mobil-h2'>Resale in four easy steps</h1>
+          <div className='flex flex-col sm:hidden'>
+             {objPhon.map((itm,idx)=>(
+               <SectionPhone key={idx} index={itm.index} p={itm.p} img={itm.img} bg={itm.bg}/>
+             ))}
+           </div>
+           <div className='sm:flex flex-col justify-center items-center hidden'>
+             <div >
+               {objPhon.map((itm,idx)=>(
+                  <ButonSlider 
+                     classs={ActivStyle(idx)}
+                     handelClik={()=>{
+                        cur.current.setIndex(idx)
+                        toggelActiv(idx)}}  
+                    key={idx} 
+                    index={itm.index} 
+                    bg={itm.bg}/>
+                    ))}
+             </div>
+             <Carousel 
+                  ref={cur} 
+                  renderArrowLeft={() => {}} 
+                  autoPlay={false} 
+                  renderArrowRight={()=>{}}
+                  renderDots={()=>{}}>
+                  {objPhon.map((itm,idx)=>(
+                        <CurselHowitWork 
+                        key={idx} 
+                        index={itm.index} 
+                        p={itm.p} 
+                        img={itm.img} 
+                        bg={itm.bg}/>))}
+              </Carousel>
+           </div>
+      </section>
        {/* according */}
        <section className='relative overflow-hidden flex flex-col sm:flex-row w-full gap-5 py-12  justify-between'>
         <div className=' flex flex-col items-center w-full   '>
            <div className='text-center sm:text-left  '>
-             <h1 className='text-mobil-h2 text-darkBleu sm:text-tit-h3 flex flex-col mb-10 '>
+               <h1 className='text-mobil-h2 text-darkBleu sm:text-tit-h3 flex flex-col mb-10 '>
                 <div>Frequently asked </div>
                 <div>question</div>
               </h1>
-             <Link className='bg-black  py-[16px] px-[26px] rounded-[50px] text-white '>book Call</Link>
+              <Link className='bg-black  py-[16px] px-[26px] rounded-[50px] text-white '>book Call</Link>
               <img className='absolute w-[30%] -right-10 top-12 -rotate-[50deg] block sm:hidden ' src='/public/assets/9.svg' alt='svg'/>
-           <img className='absolute  w-[30%] sm:hidden left-0 top-40 ' src='/public/assets/10.svg' alt='svg'/>
+              <img className='absolute  w-[30%] sm:hidden left-0 top-40 ' src='/public/assets/10.svg' alt='svg'/>
            </div>
         </div>
           <main className="relative px-4 pb-10 flex flex-col justify-center bg-slate-50 overflow-hidden">
-            <div className="divide-y divide-[#9CA2A4]">
+             <div className="divide-y divide-[#9CA2A4]">
                 {faqs.map((faq, index) => (
-                 <Aco key={index} title={faq.title} p={faq.text} number={faq.number}/>
+                  <Aco 
+                    key={index}
+                    title={faq.title} 
+                    p={faq.text} 
+                    number={faq.number}/>
                    ))}
-           </div>
+             </div>
            </main>
            <img className='absolute -bottom-10 right-0 rotate-[30deg] sm:block hidden' src='/public/assets/9.svg' alt='svg'/>
            <img className='absolute top-[50%] w-[30%] sm:block hidden' src='/public/assets/10.svg' alt='svg'/>
-        </section>
-        {/* section  */}
-        <section className='flex flex-col justify-center md:px-[200px] sm:py-[30px]  items-center bg-gray-extrai'>
+      </section>
+      {/* section 4 */}
+         <section className='flex flex-col justify-center md:px-[200px] py-[40px]  items-center bg-gray-extrai'>
           <div className='text-mobil-h2 sm:text-subtitl-h4  text-center'>{t('subscrub.title')}</div>
           <p className='text-mobil-p text-gray-darck block text-center sm:hidden'>{t('subscrub.p')}</p>
-          <div className='flex flex-col md:flex-row justify-around p-5  mt-5  min-w-full'>
-        <input className=' px-2 py-3 text-mobil-p rounded-[30px] w-full focus:outline-none ' type='email' placeholder={t('subscrub.placholder')}/>
-        <button className='flex  items-center justify-center bg-black rounded-[30px] px-10 py-3 mt-2 sm:mt-0 md:-ml-10 text-nav-small text-white'>{t('subscrub.button')}<img className='ml-2' src='/public/assets/Vector 1.svg'/>
-        </button>
-      </div>
+          <div className='   w-screen  flex flex-col md:flex-row justify-center  p-5  mt-5'>
+                 <input className=' px-2 py-3 text-mobil-p rounded-[30px] md:w-[50%] focus:outline-none ' type='email' placeholder={t('subscrub.placholder')}/>
+                 <button className='flex  items-center justify-center bg-black rounded-[30px] px-10 py-3 mt-2 md:mt-0 md:-ml-10 text-nav-small text-white'>{t('subscrub.button')}<img className='ml-2' src='/public/assets/Vector 1.svg'/>
+             </button>
+         </div>
         </section>
     </div>
   )

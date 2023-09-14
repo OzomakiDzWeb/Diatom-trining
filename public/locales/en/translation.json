@@ -140,6 +140,10 @@
           "title":"Page Not Found",
           "p":"The page you are looking for doesn't exist or has been moved.",
           "button":"Go To Home"
+     },
+     "sliderCercle":{
+          "title1":"What our clients say",
+          "title2":"“An amazing service”"
      }
      
 }

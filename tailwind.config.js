@@ -20,6 +20,10 @@ export default {
       'gray-extrai':'#DDE3E6',
       },
      fontSize:{
+      'small':['14px',{
+        lineHeight:'20px',
+        fontWeight:'400'
+      }],
       'tit-h1':['65px',{
         lineHeight:'71.5px',
         fontWeight:'400'

@@ -17,9 +17,7 @@ const Nav = () => {
        
       }
      },[])
-
-
-  return (
+ return (
     <nav className=" text-typg bg-slate-950 text-white flex justify-between mx-5">
      <div>
      <Link >i18</Link>

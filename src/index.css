@@ -47,4 +47,7 @@
 .linkSlider:hover::after{
 @apply animate-[hoverLinkSlider_1s_ease-in-out]}}
 
-
+@layer components{
+.cercle::after{
+@apply content-[''] absolute w-full h-full border-r-4 z-0 rounded-full border-r-primary 
+}}

@@ -64,14 +64,14 @@ const PrivacyPolice = () => {
             <img className='md:block hidden -mr-3 ' src='/public/assets/policRght.png' alt='svg'/>
           </div>
       </div>
-      <section className='flex flex-col justify-center md:px-[200px] mt-5 sm:py-[30px]  items-center bg-gray-extrai'>
-          <div className='text-mobil-h2 sm:text-subtitl-h4  text-center'>Abonnez-vous à notre newsletter</div>
-          <p className='text-mobil-p text-gray-darck block text-center sm:hidden'>Recevez les dernières tendances de l'économie circulaire et bien plus encore.</p>
-          <div className='flex flex-col md:flex-row justify-center  mt-5 w-full'>
-        <input className=' px-2 py-3 rounded-[30px] focus:outline-none ' type='email' placeholder={t('subscrub.placholder')}/>
-        <button className='flex  items-center justify-center bg-black rounded-[30px] px-10 py-3 mt-2 sm:mt-0 md:-ml-10 text-nav-small text-white'>{t('subscrub.button')}<img className='ml-2' src='/public/assets/Vector 1.svg'/>
-        </button>
-      </div>
+       <section className='flex flex-col justify-center md:px-[200px] py-[40px] mt-20  items-center bg-gray-extrai'>
+          <div className='text-mobil-h2 sm:text-subtitl-h4  text-center'>{t('subscrub.title')}</div>
+          <p className='text-mobil-p text-gray-darck block text-center sm:hidden'>{t('subscrub.p')}</p>
+          <div className='   w-screen  flex flex-col md:flex-row justify-center  p-5  mt-5'>
+                 <input className=' px-2 py-3 text-mobil-p rounded-[30px] md:w-[50%] focus:outline-none ' type='email' placeholder={t('subscrub.placholder')}/>
+                 <button className='flex  items-center justify-center bg-black rounded-[30px] px-10 py-3 mt-2 md:mt-0 md:-ml-10 text-nav-small text-white'>{t('subscrub.button')}<img className='ml-2' src='/public/assets/Vector 1.svg'/>
+             </button>
+         </div>
         </section>
     </div>
   )

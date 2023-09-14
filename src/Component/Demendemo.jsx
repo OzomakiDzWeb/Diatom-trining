@@ -7,9 +7,9 @@ const Demendemo = () => {
 
   const {showDomendForm,setShowDomendFoem}=useContext(context)
   const {t}=useTranslation()
-
+  
   return (
-    <div className={`absolute bg-black/[0.4]  h-[100vh] top-0 w-full mx-auto ${showDomendForm?'block':'hidden'}`}>
+    <div className={` bg-black/[0.4]  h-[100vh] top-[0px] fixed z-50  w-full mx-auto ${showDomendForm?'block':'hidden'}`}>
       <form className='relative bg-third sm:bg-scond md:w-[65%] w-full h-screen mx-auto p-[10px] sm:px-[60px] overflow-y-auto overflow-x-hidden'>
          <div className='flex justify-end z-10 relative'>
           <img onClick={()=>setShowDomendFoem(false)} className='h-[71px] cursor-pointer' src='/public/assets/Plus.png' alt='close'/>

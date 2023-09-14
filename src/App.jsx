@@ -15,11 +15,8 @@ const App = () => {
    
   return (
     <AppContext>
-
-    <div>
-
-    <div className="mt-[40px] sm:mt-0   relative ">
-      
+     <div>
+      <div className="mt-[40px] sm:mt-0   relative ">
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -27,10 +24,8 @@ const App = () => {
         <Route path="/privacy-police" element={<PrivacyPolice/>}/>
         <Route path="/wiewe-exist" element={<WieWeexist/>}/>
         <Route path="*" element={<Page404/>}/>
-        
-      </Routes>     
+        </Routes>     
       <Footer/>
-    
     </div>
       <Demendemo/>
       <NavMobil/>

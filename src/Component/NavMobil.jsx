@@ -6,10 +6,9 @@ import { useTranslation } from 'react-i18next'
 const NavMobil = () => {
       const {setShowDomendFoem,shoNavMobil,setShowNavMobil ,changL}=useContext(context)
       const {t}=useTranslation()
-      
-      
+    
   return (
-    <div className={`w-[100vw] h-[100vh] bg-scond absolute top-0 ${shoNavMobil?'block':'hidden'}`}>
+    <div className={`w-[100vw] h-[100vh] bg-scond  fixed top-0 z-50 ${shoNavMobil?'block':'hidden'}`}>
      <div className='flex justify-end z-10 relative'>
        <img 
          onClick={()=>setShowNavMobil(false)} 

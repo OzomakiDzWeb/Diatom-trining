@@ -15,7 +15,7 @@ const Header = () => {
 
     const {setShowDomendFoem,changL,setShowNavMobil} = useContext(context)
   return (
-    <nav className="flex justify-between items-center  lg:mx-[80px] px-[6px] lg:mt-6">
+    <nav className="flex justify-between items-center   lg:mx-[80px] mx-5 lg:mt-6">
       <div className=" flex justify-between items-center ">
          <Link to='/'>
           <img className="sm:hidden h-[28px]" src="/public/assets/diatome-logo-symbole-05.png" alt='logo'/> 
@@ -27,13 +27,13 @@ const Header = () => {
          </div>
       </div>
         <div className="sm:flex justify-between items-center  hidden">
-           <select className="text-typg form-select appearance-none pl-4 border-none focus:outline-none cursor-pointer bg-no-repeat" onChange={changL} >
+           <select className="text-nav-caps form-select appearance-none pl-4 border-none focus:outline-none cursor-pointer bg-no-repeat" onChange={changL} >
               <option className="lang" value='en'>en</option>
               <option className="lang" value='fr'>fr</option>
            </select>
-           <button onClick={()=>setShowDomendFoem(true)} className=" h-[56px] py-[16px] px-[26px] rounded-[50px] bg-[#F0FF1E] text-typg">{t('Header.btn-header')}</button>
+           <button onClick={()=>setShowDomendFoem(true)} className="  py-[16px] px-[26px] rounded-[50px] bg-[#F0FF1E] text-p-main">{t('Header.btn-header')}</button>
         </div>
-        <button onClick={()=>setShowDomendFoem(true)} className=" sm:hidden h-[56px] py-[16px] px-[26px] rounded-[50px] bg-[#F0FF1E] text-typg">{t('Header.btn-header')}</button>
+        <button onClick={()=>setShowDomendFoem(true)} className=" sm:hidden h-[56px] py-[16px] px-[26px] rounded-[50px] bg-[#F0FF1E] text-small">{t('Header.btn-header')}</button>
         <img onClick={()=>setShowNavMobil(true)} className="sm:hidden cursor-pointer" src="/public/assets/burger.png" alt="menuMobil"/>
     </nav>
   )

@@ -1,18 +1,13 @@
 import { useState, useEffect } from 'react'
 
-
-
 const Aco = ({title,number,p}) => {
       const [accordionOpen, setAccordionOpen] = useState(false)
 
-  useEffect(() => {
+      useEffect(() => {
     setAccordionOpen(false)
   }, [])
 
-  
-
- 
-    return(
+  return(
     <div className="py-2">
       <h2>
         <button
